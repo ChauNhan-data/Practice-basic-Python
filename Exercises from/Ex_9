@@ -1,0 +1,9 @@
+import math
+C=50
+H=30
+D = input('Nhap chuoi gia tri D: \n').split(',')
+Q=[]
+for i in D:
+    Q.append(str(round(math.sqrt(2*C*int(i)/H))))
+print('Chuoi gia tri Q:')
+print(','.join(Q))
